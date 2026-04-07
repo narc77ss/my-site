@@ -1,32 +1,27 @@
-schema: hugoblox/author/v1
-slug: me
-is_owner: true
-name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
+display:
+  given: Валентина
+  family: Томилова
+  pronunciation: Томилова Валентина Станиславовна
   pronouns: she/her
+  avatar: "avatar.jpg"
+  
 status:
   icon: "☕️"
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+   
+role: Студент
+bio: 
+   Студент первого курса Российского университета дружбы народов имени Патриса Лумумбы. 
+   
+   <p class="indent">Интересы&#58; Рисование, программирование на линуксе, прослушивание музыки, просмотр сериалов, спорт. </p>
+   
+   <p class="indent">Образование&#58;  Имею полное среднее образование, подтвержденное аттестатом с отличием, выданным МБОУ "Нахабинская СОШ №2". В настоящее время являюсь студенткой и получаю высшее образование в РУДН.</p>
+   <p class="indent">Навыки&#58; Отлично рисую, иногда программирую на линуксе и пайтоне.</p>
+   <p class="indent">Опыт&#58; 5 лет в художественной школе, сдала ЕГЭ по информатике, математике и физике. </p>
+   <p class="indent">Достижения&#58; Окончила школу с отличием и золотой медалью, дополнительно получила свидетельство об окончании школы искусств с отличием по программе дополнительного предпрофессионального образования в области изобразительного искусства. Дважды призер ВСОШ по МХК. Участвовала в различных выставках, олимпиадах. Сдала ЕГЭ и поступила в ВУЗ.</p>
 affiliations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: РУДН
+    url: https://www.rudn.ru/
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/MakeOwnable
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/cv
-    url: uploads/resume.pdf
-    label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
+    url: mailto:1032253519@rudn.ru
+    label: Связаться со мной
