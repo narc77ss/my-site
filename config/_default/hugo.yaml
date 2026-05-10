@@ -30,6 +30,23 @@ cascade:
       navbar:
         enable: true
 
+  # Personal projects options (персональные проекты)
+  - target:
+      path: /project/**
+      kind: page
+    pager: true
+    editable: true
+    show_date: true
+    show_date_updated: true
+    reading_time: true
+    commentable: false
+    show_related: true
+    share: true
+    show_breadcrumb: true
+    header:
+      navbar:
+        enable: true
+
 ############################
 ## LANGUAGE
 ############################
@@ -67,6 +84,7 @@ taxonomies:
   tag: tags
   category: categories
   author: authors
+  project: projects
 markup:
   _merge: deep
 related:
@@ -78,9 +96,11 @@ related:
       weight: 100
     - name: categories
       weight: 70
+    - name: projects
+      weight: 80
 security:
   _merge: deep
 sitemap:
   _merge: deep
 minify:
-  _merge: deep
+  _merge: deep  
